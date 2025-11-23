@@ -55,7 +55,7 @@ body {
 }
 
 .wrapper form .field input:focus,
-.wrapper form .field input:valid{
+.wrapper form .field input:valid {
   border-color: #4158d0;
 }
 
@@ -72,15 +72,14 @@ body {
 
 .wrapper form .field input:focus ~ label,
 .wrapper form .field input:valid ~ label {
- top: 0%;
- background-color: white;
- color: #4158d0;
- font-size: 16px;
- transform: translateY(-50%);
+  top: 0%;
+  background-color: white;
+  color: #4158d0;
+  font-size: 16px;
+  transform: translateY(-50%);
 }
 
-
-.wrapper form .pass-link{
+.wrapper form .pass-link {
   color: #4158d0;
   margin: 7px 0 0 10px;
 }
